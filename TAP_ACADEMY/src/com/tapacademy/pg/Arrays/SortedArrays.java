@@ -62,7 +62,6 @@ class Day5{
 				}
 				count=1;
 			}
-			
 		}
 		if(count==1) {
 			uniqueCount++;
