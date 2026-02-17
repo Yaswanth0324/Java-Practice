@@ -1,0 +1,28 @@
+# Eclipse workspace files (DO NOT COMMIT)
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Eclipse specific files
+.metadata/
+.settings/
+.project
+.classpath
+
+# Compiled output folder (Eclipse default)
+bin/
+
+# If using Maven
+target/
+
+# If using Gradle
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java crash logs
+hs_err_pid*
