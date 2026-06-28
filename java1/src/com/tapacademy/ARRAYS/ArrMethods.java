@@ -36,8 +36,8 @@ public class ArrMethods {
 		System.out.println(Arrays.toString(copyArr));
 		
 		//binarySearch
-		int index = Arrays.binarySearch(a, 5);
-        System.out.println("binarySearch(30): index = " + index);
+		int index = Arrays.binarySearch(a, 4);
+        System.out.println("binarySearch(): index = " + index);
         
         //asList
         Integer[] arr3 = {1, 2, 3, 4, 5};

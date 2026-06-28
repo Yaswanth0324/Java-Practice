@@ -36,7 +36,7 @@ class Atm{
 
 class Bank1{
 	Atm atm = new Atm();
-	void intiateAccount()   {
+	void intiateAccount() {
 		try {
 			atm.acceptInput();
 			atm.validate();

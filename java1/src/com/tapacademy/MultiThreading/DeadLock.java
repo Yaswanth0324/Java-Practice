@@ -23,10 +23,10 @@ class Warrior1 extends Thread{
 		try {
 			Thread.sleep(3000);
 			synchronized(res1) {
-				System.out.println("arjun acquired " + res1);
+				System.out.println("arjuna acquired " + res1);
 				Thread.sleep(3000);
 				synchronized(res2) {
-					System.out.println("arjuna aqquired " + res2);
+					System.out.println("arjuna acquired " + res2);
 					Thread.sleep(3000);
 					synchronized(res3){
 						System.out.println("arjuna acquired " + res3);

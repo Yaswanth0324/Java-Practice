@@ -39,10 +39,10 @@ public class DaoDriver {
 		e.setSalary(newSal);
 		System.out.println(edi.updateEmployee(e));
 		
-		System.out.println("Enter the id to be delete: ");
-		int delId = sc.nextInt();
-		System.out.println(edi.deleteEmployee(delId));
-		
+//		System.out.println("Enter the id to be delete: ");
+//		int delId = sc.nextInt();
+//		System.out.println(edi.deleteEmployee(delId));
+//		
 		
 	}
 }

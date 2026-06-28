@@ -23,7 +23,7 @@ public class Exce_Handle3 {
 		try {
 			d.method1();
 		} catch (Exception e) {
-			System.out.println("arrays doesn't have negative size , so enter correct size");
+			e.printStackTrace();
 		}
 	}
 }

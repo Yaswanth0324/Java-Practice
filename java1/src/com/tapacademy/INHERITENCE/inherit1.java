@@ -19,7 +19,7 @@ class child extends Parent{
 
 public class inherit1 {
 	public static void main(String[] args) {
-		child c = new child();
+		Parent c = new child();
 		
 		System.out.println(c.height);
 		System.out.println(c.assets);

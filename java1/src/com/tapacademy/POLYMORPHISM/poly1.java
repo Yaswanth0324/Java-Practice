@@ -17,7 +17,8 @@ class cargoPlane extends Plane{
 }
 class passengerPlane extends Plane{
 	@Override
-	void fly() {
+	void fly() {	
+		
 		System.out.println("passenger plane flies");
 	}
 	void carryPassengers() {                  //specialized methods

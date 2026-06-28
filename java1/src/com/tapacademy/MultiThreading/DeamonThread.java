@@ -17,6 +17,8 @@ class Captian extends Thread
 			bc.setDaemon(true);
 			blc.setDaemon(true);
 			
+			
+			
 			bc.start();
 			blc.start();
 			
@@ -46,7 +48,7 @@ class BatterCoach extends Thread
 	public void run() {
 		for( ; ; )
 		{
-			System.out.println("Batting coachEntering into the ground");
+			System.out.println("Batting coach Entering into the ground");
 			try {
 				Thread.sleep(3000);
 			} catch (Exception e) 

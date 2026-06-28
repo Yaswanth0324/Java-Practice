@@ -8,7 +8,7 @@ class BathRoom{
 		try {
 			System.out.println(name + " Entered into Bathroom");
 			Thread.sleep(3000);
-			System.out.println(name + " Stared using Bathroom");
+			System.out.println(name + " Started using Bathroom");
 			Thread.sleep(5000);
 			System.out.println(name + " Exited from Bathroom");
 		}catch(Exception e) {

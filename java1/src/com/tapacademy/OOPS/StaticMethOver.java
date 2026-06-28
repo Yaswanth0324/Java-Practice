@@ -4,21 +4,30 @@ class Demo44{
 	static void first() {
 		System.out.println("first static method");
 	}
+	static int  e =10;
 }
 class Demo45 extends Demo44{
-//	@Override
-//	static void first() {
-//		System.out.println("second static method");
-//	}
+
+	static void first() {
+		System.out.println("second static method");
+	}
+	
+//	static int e =15;
 }
 
 
 public class StaticMethOver {
 	public static void main(String[] args) {
+		Demo44 d = new Demo45();
+		d.first();
+		Demo45 d1 = new Demo45();
+		d1.first();
 		Demo45.first();
 		Integer a=10;
 		Integer b =10;
 		System.out.println(a.equals(b));
+		
+		System.out.println(Demo45.e);
 		
 	
 	}

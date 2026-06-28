@@ -7,13 +7,14 @@ final class Demo33 implements Demo{
 
 	@Override
 	public void add() {
-		// TODO Auto-generated method stub
 		
 	}
 	
 }
 public class interf4 {
 	public static void main(String[] args) {
+		
+		
 		
 		 Demo d = new  Demo(){          //ananymous inner class
 			
@@ -26,5 +27,6 @@ public class interf4 {
 		Demo d1 = () -> { System.out.println("ADD");};  //lambda expression
 		d.add();
 		d1.add();
+		
 	}
 }

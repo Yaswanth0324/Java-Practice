@@ -130,10 +130,10 @@ public class Array3 {
 		//		d3.productOfArray(arr);
 		d3.secondLargest(arr);
 
-		d3.maxPairsSum(arr);
-		d3.maxPairsProduct(arr);
-		d3.secondMin(arr);
-		d3.minPairsSum(arr);
-		d3.minPairsProduct(arr);
+//		d3.maxPairsSum(arr);
+//		d3.maxPairsProduct(arr);
+//		d3.secondMin(arr);
+//		d3.minPairsSum(arr);
+//		d3.minPairsProduct(arr);
 	}
 }

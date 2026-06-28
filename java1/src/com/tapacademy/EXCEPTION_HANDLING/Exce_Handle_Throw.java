@@ -13,7 +13,7 @@ public class Exce_Handle_Throw {
 	public static void main(String[] args) {
 		Major m = new Major();
 		try {
-			m.voteEligible(16);
+			m.voteEligible(19);
 		} catch (Exception e) {
 			
 			System.out.println(e.getMessage());

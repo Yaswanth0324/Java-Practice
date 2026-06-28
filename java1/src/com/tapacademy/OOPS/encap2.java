@@ -25,7 +25,7 @@ class Login{
 		this.pwd = pwd;   //this will return values provided inside object
 	}
 //	public Login() {
-//		uName="Yash";     // thius will print values inside this constructor or developer provided values
+//		uName="Yash";     // this will print values inside this constructor or developer provided values
 //		phNo=8247302169L;
 //		pwd = "jgdhev4848";
 //	}

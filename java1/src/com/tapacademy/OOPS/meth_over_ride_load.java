@@ -14,6 +14,7 @@ class child extends parent{
 	}
 	void disp(int a) {         //method overloading
 		System.out.println(a);
+		
 	}
 	void disp(int a , int b) {
 		System.out.println(a+b);

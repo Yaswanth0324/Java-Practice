@@ -1,5 +1,6 @@
 package com.tapacademy.ABSTRACTION_INTERFACE;
 interface Animal{
+	int A =10;
 	void eat();
 	void run();
 }

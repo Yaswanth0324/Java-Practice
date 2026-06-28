@@ -20,10 +20,10 @@ class Atm{
 	
 }
 
-class Person1 extends Thread{
+class Person extends Thread{
 	Atm atm;
 	int amount;
-	public Person1(Atm atm , int amount) {
+	public Person(Atm atm , int amount) {
 		this.atm=atm;
 		this.amount=amount;
 	}
@@ -38,9 +38,9 @@ public class SynchronizationMeth2 {
 	public static void main(String[] args) {
 		Atm atm = new Atm();
 		
-		Person1 p1 = new Person1(atm , 5000);
-		Person1 p2 = new Person1(atm , 184894);
-		Person1 p3 = new Person1(atm , 4848948);
+		Person p1 = new Person(atm , 5000);
+		Person p2 = new Person(atm , 184894);
+		Person p3 = new Person(atm , 4848948);
 
 		
 		p1.setName("Person1");

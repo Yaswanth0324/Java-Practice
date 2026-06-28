@@ -5,18 +5,6 @@ class person{
 	double salary;
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
 
 public class passByRef1 {

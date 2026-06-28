@@ -40,6 +40,7 @@ public class ThreadLifeCycle2 {
 
         
         System.out.println("Order1 State: " + order1.getState());
+        System.out.println("Order2 State: " + order2.getState());
 
         order1.start();
         order2.start();

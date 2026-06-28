@@ -2,7 +2,7 @@ package com.tapacademy.EXCEPTION_HANDLING;
 
 import java.util.Scanner;
 
-class Test{
+class Test{                   //ducking an exception
 	void alpha() throws Exception{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a String");

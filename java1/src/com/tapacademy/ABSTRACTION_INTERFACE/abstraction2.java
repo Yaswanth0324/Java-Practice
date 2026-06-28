@@ -93,7 +93,7 @@ public class abstraction2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter the shpae: \nSquare\nRectangle\nCircle");
+		System.out.println("Enter the shape : \nSquare\nRectangle\nCircle");
 		String choice = sc.next();
 		
 		Shape shape = Factory.getShape(choice);

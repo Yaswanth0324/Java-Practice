@@ -1,5 +1,5 @@
 package com.tapacademy.MultiThreading;
-import java.util.*;
+import java.util.Scanner;
 
 //concurrent execution
 class Demo1 extends Thread{
@@ -28,7 +28,6 @@ class Demo2 extends Thread{
 			try {
 				Thread.sleep(2000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
